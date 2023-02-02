@@ -7,6 +7,8 @@ second_number = input('Введите второе число\n')
 summ = funcs.get_sum(first_number, second_number)
 subtr = funcs.get_subtraction(first_number, second_number)
 
+print(f'Результат суммирования: {summ}')
+print(f'Результат вычитания: {subtr}')
 
 
 
